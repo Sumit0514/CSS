@@ -1,0 +1,39 @@
+*{
+   text-decoration: none; 
+}
+.navbar{
+    background: rgb(26, 25, 25);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navdiv{
+    display:flex;
+    flex-direction: row-reverse;
+
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: white;
+    font-size: 10px;
+    font-weight: normal;
+    margin-right: 20px;
+}
+button{
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 2px;
+    width: 90px;
+}
+button a{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 10px ;
+}
+button :hover{
+    background-color: burlywood;
+}
